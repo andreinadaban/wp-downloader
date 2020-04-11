@@ -6,6 +6,10 @@ EMAIL=$5
 
 PREFIX="$(openssl rand -hex 3)_"
 
+# Containing directory
+mkdir "${NAME}"
+cd "${NAME}"
+
 # Installation
 wp core download
 
