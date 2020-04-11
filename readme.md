@@ -2,6 +2,10 @@
 
 A simple script used to download and install WordPress and the WordPress [starter theme](https://github.com/andreinadaban/wp-theme).
 
+## Requirements
+
+This script requires [WP CLI](https://wp-cli.org/) to be installed.
+
 ## Installation
 
 1. Move the `wpd.sh` file into the `/usr/local/bin` directory
