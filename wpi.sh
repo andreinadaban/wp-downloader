@@ -36,20 +36,3 @@ wp plugin delete --all
 
 # Deletes all preinstalled themes including the active one
 wp theme delete --all --force
-
-# Creates and activates the theme
-cd wp-content/themes
-
-# Downloads the starter theme
-git clone https://github.com/andreinadaban/wp-theme.git
-cd wp-theme
-rm -rf .git
-cd ../
-mv wp-theme "${NAME}"
-cd "${NAME}"
-rm readme.md
-touch readme.md
-
-cd ../../../
-
-wp theme activate "${NAME}"

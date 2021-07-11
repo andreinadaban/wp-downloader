@@ -1,10 +1,10 @@
 # WordPress Installer
 
-A simple script used to download and install WordPress and the WordPress [starter theme](https://github.com/andreinadaban/wp-theme).
+A simple script used to download and install WordPress.
 
 ## Requirements
 
-This script requires [WP CLI](https://wp-cli.org/), [Git](https://git-scm.com/) and [OpenSSL](https://www.openssl.org/source/) to be installed.
+This script requires [WP CLI](https://wp-cli.org/) and [OpenSSL](https://www.openssl.org/source/).
 
 ## Installation
 
