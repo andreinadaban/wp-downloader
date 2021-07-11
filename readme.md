@@ -12,6 +12,8 @@ This script requires [WP CLI](https://wp-cli.org/), [Git](https://git-scm.com/) 
 2. Remove the `.sh` extension
 3. Make the file executable using the `chmod +x /usr/local/bin/wpi` command
 
+You can do all of the above with this command: `mv wpi.sh /usr/local/bin/wpi; chmod +x /usr/local/bin/wpi`.
+
 ## Usage
 
 Run `wpi site-name site-title admin-user admin-password admin-email`.
